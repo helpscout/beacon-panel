@@ -91,7 +91,6 @@ class Index extends Component {
       <Pane display="flex" justifyContent="center" alignItems="center" height="100%">
         <Head>
           <title>Beacon 2 Panel</title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
         </Head>
         <Pane
           width={840}
@@ -162,16 +161,6 @@ class Index extends Component {
             />
           </Pane>
         </Pane>
-        <style jsx global>{`
-          html, body, #__next {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-          }
-          body {
-            background-color: #f4f4f5;
-          }
-        `}</style>
       </Pane>
     )
   }
